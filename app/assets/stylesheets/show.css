@@ -1,0 +1,13 @@
+h2{
+ display: inline-block;
+ vertical-align: middle;
+ font-size: 32px;
+ margin: 20px 0px;
+}
+body { color: white;
+    background-image: url("http://www.millionglitters.com/background/dark/dark-pattern-012.gif");
+    font-size:20px;
+    padding:50px;
+    text-align: center;
+    font-family: "helvetica neue", helvetica, sans-serif;
+}
