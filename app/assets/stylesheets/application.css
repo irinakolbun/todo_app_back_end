@@ -13,3 +13,58 @@
  *= require_tree .
  *= require_self
  */
+
+body { color: white;
+    /*background-color: violet;*/
+    background-image: url("http://www.millionglitters.com/background/dark/dark-pattern-012.gif");
+    /*background-image: url("http://www.nmgncp.com/data/out/93/4341036-dark-blue-computer-wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    font-size:20px;
+    padding:50px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+h1 {text-align: center;
+    font-size:30px;
+    text-decoration: underline;
+}
+ul {
+    list-style-type: square;
+}
+
+.pomodoro-estimate {
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    background-color: #b8bdc4;
+    color: #000000;
+}
+#add-new-todo-button{
+ font-size: 20px;
+ text-align: center;
+ color: #FFF;
+ outline: none;
+ border-style: none;
+ padding: 10px;
+ border-radius: 3px;
+ box-shadow: 2px 2px 1px #90A4AE ;
+ display: block;
+ background-color: #fcaaff ;
+ margin-top: 10px;
+}
+li {padding: 10px;}
+#add-new-todo-button:active{
+ box-shadow: 5px 5px 5px #90A4AE ;
+}
+ul, li, a {list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+  background-color: #7a0416;
+  border-radius: 3px;
+}
+.completed-todo{
+  text-decoration: line-through;
+}
