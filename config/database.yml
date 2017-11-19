@@ -17,7 +17,7 @@ development:
   encoding: unicode
   database: todo_app_back_end_development
 
-  # Connect on a TCP socket. Omitted by default since the client uses a
+  # Connect on a TCP socket. Omitted by default since the client uses asudo service postgresql start
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
   #host: localhost
