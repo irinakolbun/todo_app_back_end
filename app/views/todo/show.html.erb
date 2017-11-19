@@ -2,6 +2,6 @@
    <input type="checkbox">
   <h2><%= @todo.description %></h2>
 <span class="pomodoro-estimate"><%= @todo.pomodoro_estimate %> Pomodoros</span>
-   <a href="#">Edit</a>
-   <a href="#">Delete</a>
-   <a href="index.html">Go back...</a>
+   <a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
+   <a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a>   
+   <a href="/todo/index">Go back...</a>
