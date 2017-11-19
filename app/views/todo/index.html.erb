@@ -1,18 +1,18 @@
-          <h1>
+    <h1>
       <img src="https://vignette.wikia.nocookie.net/remnantsofearth/images/d/d3/Saturn-transparent-background-planet-1.png/revision/latest/scale-to-width-down/617?cb=20170108022926" width="42">
-      Workshop Todo List
+      ToDo List
     </h1>
 
        <ul class="card">
 <% @todos.each do |todo| %>
-  <li>
-    <input type="checkbox" name=""/>
-    <a href="/todo/show/<%= todo.id %>"><%= todo.description %></a>
-    <span class="pomodoro-estimate small-pomodoro-estimate"><%= todo.pomodoro_estimate %></span>
-  </li>
+            <li>
+            <input type="checkbox" name=""/>
+            <a href="/todo/show/<%= todo.id %>"><%= todo.description %></a>
+            <span class="pomodoro-estimate small-pomodoro-estimate"><%= todo.pomodoro_estimate %></span>
+            </li>
 <% end %>
-</ul>
+        </ul>
 
        <div id="new-todo-block">
 <a href="/todo/new" class="button add-new-todo-button" id="add-new-todo-button">Add a todo</a>
-</div>
+       </div>
