@@ -50,7 +50,7 @@ ul {
  border-radius: 3px;
  box-shadow: 2px 2px 1px #90A4AE ;
  display: block;
- background-color: #fcaaff ;
+ background-color: #7a0416 ;
  margin-top: 10px;
 }
 li {padding: 10px;}
@@ -64,6 +64,7 @@ ul, li, a {list-style-type: none;
 li:hover{
   background-color: #7a0416;
   border-radius: 3px;
+  opacity:0.69;
 }
 .completed-todo{
   text-decoration: line-through;
